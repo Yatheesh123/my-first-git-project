@@ -19,6 +19,6 @@ jobs:
       with:
         python-version: '3.10'
 
-    - name: Run Unit Tests
+    - name: Run Calculator Tests
   run: |
     python python-app/test_calculator.py
